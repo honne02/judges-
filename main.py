@@ -1,12 +1,10 @@
-from bs4 import BeautifulSoup
+
 import requests
 import time
 from pathlib import Path
 import json
-import uuid
 import random
 import vk_api
-from vk_api.bot_longpoll import VkBotEventType, VkBotLongPoll
 import config
 
 def uniqueid():
